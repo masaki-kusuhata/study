@@ -18,11 +18,22 @@ apm config list
 
 以下のような設定情報が表示されると思います。
 ```
-~~~~~~~~~~
-; userconfig /Users/riaux06/.atom/.apmrc
+; cli configs
+globalconfig = "/Users/admin/.atom/.apm/.apmrc"
+user-agent = "npm/2.13.3 node/v0.10.40 darwin x64"
+userconfig = "/Users/admin/.atom/.apmrc"
+
+; userconfig /Users/admin/.atom/.apmrc
 http-proxy = "http://username:password@proxy.example.com:8080"
 https-proxy = "http://username:password@proxy.example.com:8080"
-~~~~~~~~~~~
+
+; globalconfig /Users/admin/.atom/.apm/.apmrc
+cache = "/Users/admin/.atom/.apm"
+
+; node bin location = /opt/homebrew-cask/Caskroom/atom/1.1.0/Atom.app/Contents/Resources/app/apm/bin/node
+; cwd = /Users/admin/Documents/github/masaki-kusuhata/study
+; HOME = /Users/admin/.atom/.node-gyp
+; 'npm config ls -l' to show all defaults.
 ```
 
 設定した情報が表示されていれば、プロキシ設定は完了です。
