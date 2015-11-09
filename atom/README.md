@@ -99,82 +99,82 @@ Run `apm help <command>` to see the more details about a specific command.
 ```
 
 ## おすすめパッケージ紹介
-### japanese-wrap
+### [japanese-wrap](https://atom.io/packages/japanese-wrap)
 日本語を正しく折り返しさせます。
 ```
 apm install japanese-wrap
 ```
 
-### file-icons
+### [file-icons](https://atom.io/packages/file-icons)
 ツリービューのファイルの横に、ファイルの種類が分かりやすくなるアイコンが設置されます。
 
-### editorconfig
+### [editorconfig](https://atom.io/packages/editorconfig)
 editorconfigを有効にします。
 ```
 apm install editorconfig
 ```
 
-### highlight-column
+### [highlight-column](https://atom.io/packages/highlight-column)
 カーソルの列位置をわかりやすくします。
 ```
 apm install highlight-column
 ```
 
-### highlight-line
+### [highlight-line](https://atom.io/packages/highlight-line)
 カーソルの行位置をわかりやすくします。
 ```
 apm install highlight-line
 ```
 
-### autocomplete-paths
+### [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
 ファイルやディレクトリの予測変換を表示してくれます。
 ```
 apm install autocomplete-paths
 ```
 
-### css-snippets
+### [css-snippets](https://atom.io/packages/css-snippets)
 cssの予測変換を表示してくれます。
 ```
 apm install css-snippets
 ```
 
-### javascript-snippets
+### [javascript-snippets](https://atom.io/packages/javascript-snippets)
 javascriptの予測変換を表示してくれます。
 ```
 apm install javascript-snippets
 ```
 
-### angularjs
+### [angularjs](https://atom.io/packages/angularjs)
 AngularJSの予測変換を表示してくれます。
 ```
 apm install angularjs
 ```
 
-### emmet
+### [emmet](https://atom.io/packages/emmet)
 省略したコードを入力することで、少ないタイピングでのコーディングをサポートしてくれます。
 ```
 apm install emmet
 ```
 
-### atom-bootstrap3
+### [atom-bootstrap3](https://atom.io/packages/atom-bootstrap3)
 bootstrapの予測変換を表示してくれます。
 ```
 apm install atom-bootstrap3
 ```
 
-### git-plus
+### [git-plus](https://atom.io/packages/git-plus)
 ATOM上でGit操作ができるようになります。
 ```
 apm install git-plus
 ```
 
-### git-control
+### [git-control](https://atom.io/packages/git-control)
 ATOMでグラフィカルなGit操作ができるようになります。
 ```
 apm install git-control
 ```
 
-### git-history
+### [git-history](https://atom.io/packages/git-history)
 Git Logから以前のバージョンのファイル選択して、表示できるようになります。
 ```
 apm install git-history
