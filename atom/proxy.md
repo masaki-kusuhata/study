@@ -1,10 +1,5 @@
 # プロキシを設定しよう
-プロキシ内でATOMを使用する場合は、必ずapmにプロキシ設定を行いましょう。プラグインをインストールできないATOMにあまり魅力はありません。以下のコマンドを実行してください。
-
-**http-proxyの設定**
-```
-apm config set http-proxy http://username:password@proxy.example.com:8080
-```
+プロキシ内でATOMを使用する場合は、必ず[apm](https://github.com/atom/apm)にプロキシ設定を行いましょう。プラグインをインストールできないATOMにあまり魅力はありません。以下のコマンドを実行してください。
 
 **https-proxyの設定**
 ```
@@ -24,7 +19,6 @@ user-agent = "npm/2.13.3 node/v0.10.40 darwin x64"
 userconfig = "/Users/admin/.atom/.apmrc"
 
 ; userconfig /Users/admin/.atom/.apmrc
-http-proxy = "http://username:password@proxy.example.com:8080"
 https-proxy = "http://username:password@proxy.example.com:8080"
 
 ; globalconfig /Users/admin/.atom/.apm/.apmrc
